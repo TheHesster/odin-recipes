@@ -1,0 +1,44 @@
+body {
+  background-color: #b7e0f6;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+}
+
+.recipe-list {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  list-style-type: none;
+  padding: 0px;
+  text-align: center;
+}
+
+.recipe-list-item {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.recipe-image {
+  border-radius: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.recipe-description {
+  font-size: 24px;
+}
+
+.ingredients {
+  list-style-type: square;
+}
+
+.steps-items,
+.ingredients {
+  font-size: 20px;
+  padding-top: 10px;
+}
